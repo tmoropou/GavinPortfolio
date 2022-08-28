@@ -8,11 +8,7 @@ import './App.css';
 
 function App() {
   return (
-    // <ReactAudioPlayer
-    //   src="It's A Stiff!.wav"
-    //   autoPlay
-    //   controls
-    // />
+
     <ChakraProvider>
       <MainPage>
 
