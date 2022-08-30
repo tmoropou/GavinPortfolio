@@ -3,6 +3,7 @@ import {
     Button,
     Box,
     Divider,
+    Flex,
     Heading,
     HStack,
     Image,
@@ -27,20 +28,22 @@ const movePage = (key) => {
 function MainPage() {
     return (
         <div>
-            <Box id="Home" w={'100%'}>
-                <Image
-                    zIndex={-1}
-                    opacity={0.5}
-                    htmlWidth={'100%'}
-                    height={'850'}
-                    maxH={850}
-                    align={'top'}
-                    position={'absolute'}
-                    fit={'cover'}
-                    src="https://i.ibb.co/GRbNvYh/Feel-Better-EP1-final.png"
-                    alt="Feel-Better-EP1-final"
-                />
-            </Box>
+            <Flex>
+                <Box id="Home" w={'100%'}>
+                    <Image
+                        zIndex={-1}
+                        opacity={0.5}
+                        htmlWidth={'100%'}
+                        height={'850'}
+                        maxH={850}
+                        align={'top'}
+                        position={'absolute'}
+                        fit={'cover'}
+                        src="https://i.ibb.co/GRbNvYh/Feel-Better-EP1-final.png"
+                        alt="Feel-Better-EP1-final"
+                    />
+                </Box>
+            </Flex>
             <Box sx={{ position: '-webkit-sticky', /* Safari */ position: 'sticky', top: '0', }}>
                 <HStack justify={'center'}
                 >
@@ -71,13 +74,12 @@ function MainPage() {
                 </HStack>
             </Box>
 
-            <Center h={'80%'} mt={'250'}>
+            <Center h={'80%'} mt={'250'} >
                 <HStack w="100%" verticalAlign={'center'}
                     justifyContent={'center'}
                 >
                     <Heading
                         ml="8"
-
                         fontSize={'8xl'}
                         size="md"
                         fontWeigth='semibold'
