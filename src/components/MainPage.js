@@ -89,7 +89,7 @@ function MainPage() {
             </Center>
 
             <div id={'Music'}>
-                <Box mt={'445'} pb={'0'}>
+                <Box mt={'445'} pb={'200'}>
                     <MusicPage />
                 </Box>
             </div>

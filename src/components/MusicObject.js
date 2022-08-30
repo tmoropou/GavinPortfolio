@@ -24,8 +24,8 @@ export default function MusicObject(props) {
             <Box>
                 <HStack w={'-moz-fit-content'} spacing={'10'}>
                     <VStack alignItems={'left'}>
-                        <Text fontWeight={'bold'}>{ArtistName}</Text>
-                        <Text fontWeight={'regular'}>{SongName}</Text>
+                        <Text fontWeight={'bold'} color={'white'}>{ArtistName}</Text>
+                        <Text fontWeight={'regular'} color={'white'}>{SongName}</Text>
                     </VStack>
                     <ReactAudioPlayer
                         src={audio}q

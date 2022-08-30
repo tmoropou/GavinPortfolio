@@ -13,15 +13,8 @@ const theme = extendTheme({
       // styles for the `body`
       body: {
         bg: '#1d2542',
-        color: '',
       },
       // styles for the `a`
-      a: {
-        color: 'red',
-        _hover: {
-          textDecoration: 'underline',
-        },
-      },
     },
   },
 })

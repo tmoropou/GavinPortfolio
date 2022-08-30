@@ -22,7 +22,7 @@ function MusicPage() {
         <div>
             <Box >
                 <Heading pt={100} align={'center'}>
-                    <Text className='montserrat' fontStyle={'italic'}>
+                    <Text className='montserrat' fontStyle={'italic'} color={'white'}>
                         SELECTED MUSIC
                     </Text>
                 </Heading>
