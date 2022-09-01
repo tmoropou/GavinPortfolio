@@ -16,6 +16,8 @@ import {
 
 } from '@chakra-ui/react'
 import MusicObject from './MusicObject'
+import LF_DoItAgain from '../Audio/LinguaFunqa_DoItAgain.wav'
+import Z_Signs from '../Audio/Z_Signs.wav'
 
 function MusicPage() {
     return (
@@ -30,28 +32,10 @@ function MusicPage() {
                 <Center mt={10} pb={100}>
                     <Grid w={'-moz-fit-content'} templateColumns='repeat(2, 1fr)' gap={10}>
                         <GridItem w='-moz-fit-content' h='100%' border='1px' borderColor='pink.400' p={3}>
-                            <MusicObject ArtistName={"Artist Name 1"} SongName={"Song Name 1"} SongFile={"It's A Stiff!.wav"}></MusicObject>
+                            <MusicObject ArtistName={"Lingua Funqa"} SongName={"Do It Again"} SongFile={LF_DoItAgain}></MusicObject>
                         </GridItem>
                         <GridItem w='-moz-fit-content' h='100%' border='1px' borderColor='pink.400' p={3}>
-                            <MusicObject ArtistName={"Artist Name 2"} SongName={"Song Name 2"} SongFile={"It's A Stiff!.wav"}></MusicObject>
-                        </GridItem>
-                        <GridItem w='-moz-fit-content' h='100%' border='1px' borderColor='blue.400' p={3}>
-                            <MusicObject ArtistName={"Artist Name 3"} SongName={"Song Name 3"} SongFile={"It's A Stiff!.wav"}></MusicObject>
-                        </GridItem>
-                        <GridItem w='-moz-fit-content' h='100%' border='1px' borderColor='blue.400' p={3}>
-                            <MusicObject ArtistName={"Artist Name 4"} SongName={"Song Name 4"} SongFile={"It's A Stiff!.wav"}></MusicObject>
-                        </GridItem>
-                        <GridItem w='-moz-fit-content' h='100%' border='1px' borderColor='pink.400' p={3}>
-                            <MusicObject ArtistName={"Artist Name 5"} SongName={"Song Name 5"} SongFile={"It's A Stiff!.wav"}></MusicObject>
-                        </GridItem>
-                        <GridItem w='-moz-fit-content' h='100%' border='1px' borderColor='pink.400' p={3}>
-                            <MusicObject ArtistName={"Artist Name 6"} SongName={"Song Name 6"} SongFile={"It's A Stiff!.wav"}></MusicObject>
-                        </GridItem>
-                        <GridItem w='-moz-fit-content' h='100%' border='1px' borderColor='blue.400' p={3}>
-                            <MusicObject ArtistName={"Artist Name 7"} SongName={"Song Name 7"} SongFile={"It's A Stiff!.wav"}></MusicObject>
-                        </GridItem>
-                        <GridItem w='-moz-fit-content' h='100%' border='1px' borderColor='blue.400' p={3}>
-                            <MusicObject ArtistName={"Artist Name 8"} SongName={"Song Name 8"} SongFile={"It's A Stiff!.wav"}></MusicObject>
+                            <MusicObject ArtistName={"Zeno"} SongName={"Signs"} SongFile={Z_Signs}></MusicObject>
                         </GridItem>
                     </Grid>
                 </Center>

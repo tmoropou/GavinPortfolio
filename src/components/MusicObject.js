@@ -28,7 +28,7 @@ export default function MusicObject(props) {
                         <Text fontWeight={'regular'} color={'white'}>{SongName}</Text>
                     </VStack>
                     <ReactAudioPlayer
-                        src={audio} q
+                        src={SongFile} 
                         autoPlay={false}
                         controls
                     />
